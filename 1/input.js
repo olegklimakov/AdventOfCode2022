@@ -1,4 +1,7 @@
-const input = `
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.input = void 0;
+exports.input = `
 3864
 5112
 3233
@@ -2234,15 +2237,4 @@ const input = `
 8596
 2383
 7726
-1760`
-
-const data = input
-.split(/\n\s*\n/)
-.map(elf => elf.split(/\r?\n/).map(strings => Number(strings)))
-.map(elf => elf.reduce((acc,item) => { acc+=item; return acc }))
-
-const answ1 = Math.max(...data);
-const answ2 = [...data].sort((a,b) => b - a).slice(0, 3).reduce((acc, item) => { acc += item; return acc });
-
-console.log(answ1);
-console.log(answ2);
+1760`;

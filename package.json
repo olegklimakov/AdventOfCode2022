@@ -1,0 +1,23 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "Advent Of Code solution",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegklimakov/AdventOfCode2022.git"
+  },
+  "author": "Oleg Klimakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olegklimakov/AdventOfCode2022/issues"
+  },
+  "homepage": "https://github.com/olegklimakov/AdventOfCode2022#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
