@@ -53,8 +53,6 @@ const answ2 = rounds.reduce((acc, round) => {
 
     const oppDecision = scores[arr[0]];
     let myDecision: number = chooseMyDecision(result, oppDecision);
-
-    console.log(result, oppDecision, myDecision);
     return acc + myDecision + result;
 }, 0);
 
