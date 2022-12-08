@@ -5,6 +5,7 @@ import { day4 } from './4';
 import { day5 } from './5';
 import { day6 } from './6';
 import { day7 } from './7';
+import { day8 } from './8';
 
 const answers = [
     day1,
@@ -13,7 +14,8 @@ const answers = [
     day4,
     day5,
     day6,
-    day7
+    day7,
+    day8
 ]
 
 console.table(answers);
